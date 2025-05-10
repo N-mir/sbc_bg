@@ -2,28 +2,24 @@
 
 このマニュアルでは、GitHub コラボレータとして招待された方向けに、リポジトリへの初回セットアップから日常的な作業手順までを解説します。
 
----
-
 ## 前提
 
-* **Collaborator として招待されていること**
-  招待状を受け取り、GitHub 上のリポジトリにアクセスできる権限が必要です。
+* **Collaborator として招待されていること**  
+  招待状を受け取り、GitHub 上のリポジトリにアクセスできる権限が必要です。  
   まだ招待されていない場合は、リポジトリ管理者に相談してください。
 
-* **リモートリポジトリ**
-  [https://github.com/N-mir/sbc\_bg](https://github.com/N-mir/sbc_bg)
+* **リモートリポジトリ**  
+  [https://github.com/N-mir/sbc\_bg](https://github.com/N-mir/sbc_bg)  
   ここにソースコードがホストされています。
 
-* **作業して良いブランチ**
-  `task/edit-game-rule`
+* **作業して良いブランチ**  
+  `task/edit-game-rule`  
   誤って他のブランチを編集しないよう、作業用のブランチをあらかじめ決めています。
 
-* **推奨エディタ**
-  [Visual Studio Code](https://code.visualstudio.com/) (以下 VS Code)
-  ソースコードの編集やGit操作をGUIで管理しやすいため推奨しています。
+* **推奨エディタ**  
+  [Visual Studio Code](https://code.visualstudio.com/) (以下 VS Code)  
+  ソースコードの編集やGit操作をGUIで管理しやすいため推奨しています。  
   ダウンロード: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
----
 
 ## 初回セットアップ
 
@@ -37,7 +33,7 @@ git clone git@github.com:N-mir/sbc_bg.git
 cd sbc_bg
 ```
 
-* **※操作目的**
+* **※操作目的**  
   リモート上の最新ソースコードを手元にダウンロードし、作業を開始できる状態にするためです。
 
 ### 2. origin の確認・設定
@@ -56,7 +52,7 @@ git remote -v
 git remote set-url origin git@github.com:N-mir/sbc_bg.git
 ```
 
-* **※操作目的**
+* **※操作目的**  
   SSH接続にすることで、毎回パスワード入力せずに安全にプッシュ・プルが可能になります。
 
 ### 3. 接続アカウント（ユーザー名）の確認・変更
@@ -71,7 +67,7 @@ git config --global user.name "Your Name"
 git config --global user.email you@example.com
 ```
 
-* **※操作目的**
+* **※操作目的**  
   コミット履歴に正しい名前・メールアドレスを残すことで、誰がどの変更を行ったかを明確にするためです。
 
 ### 4. SSHキーの設定（Windows PC / PowerShell）
@@ -121,7 +117,7 @@ Windows PC の PowerShell で操作を行います。
      ```
    * GitHub の Settings → SSH and GPG keys → New SSH key に貼り付け
 
-* **※操作目的**
+* **※操作目的**  
   SSH鍵で認証することで、安全かつパスワード不要で Git 操作が行えるようになります。
 
 > **注意**: SSH で `git push` を利用するには、あらかじめこの手順でキーを作成し、GitHub に登録しておく必要があります。
@@ -138,16 +134,14 @@ git checkout task/edit-game-rule
 git pull origin task/edit-game-rule
 ```
 
-* **※操作目的**
+* **※操作目的**  
   他のコラボレータの変更をローカルに取り込み、競合や古い情報で作業ミスを防ぐためです。
-
----
 
 ## 編集方法
 
 実際にファイルを編集し、変更をリモートに反映する手順です。
 
-1. **ファイルを編集**
+1. **ファイルを編集**  
    VS Code などのエディタで必要なファイルを修正します。
 
 2. **ステージング**
@@ -156,7 +150,7 @@ git pull origin task/edit-game-rule
 git add .
 ```
 
-* **※操作目的**
+* **※操作目的**  
   どの変更を次のコミットに含めるかを指定します。
 
 3. **コミット**
@@ -165,7 +159,7 @@ git add .
 git commit -m "作業内容を簡潔に説明"
 ```
 
-* **※操作目的**
+* **※操作目的**  
   変更履歴を分かりやすいメッセージとともに記録するためです。
 
 4. **プッシュ**
@@ -174,13 +168,11 @@ git commit -m "作業内容を簡潔に説明"
 git push -u origin task/edit-game-rule
 ```
 
-* **※操作目的**
+* **※操作目的**  
   ローカルの変更をリモートに送信し、他のコラボレータと共有するためです。
 
   * SSHプッシュを行う場合は、事前に「4. SSHキーの設定」でキー登録を完了させてください。
     ローカルの変更をリモートに送信し、他のコラボレータと共有するためです。
-
----
 
 ## 編集作業中の完成版Webページの確認方法
 
@@ -216,7 +208,7 @@ Jekyllで実装した静的Webサイトのページをローカルで確認す�
    bundle install
    ```
 
-* **※操作目的**
+* **※操作目的**  
   Jekyllサイトをビルド・サーブするために必要なパッケージをインストールします。
 
 ### 2. サイトのビルドとサーブ サイトのビルドとサーブ
@@ -225,7 +217,7 @@ Jekyllで実装した静的Webサイトのページをローカルで確認す�
 bundle exec jekyll serve
 ```
 
-* **※操作目的**
+* **※操作目的**  
   ローカルサーバーを起動し、変更をリアルタイムで反映しながらプレビューします。
 
 ### 3. サーバーへのアクセス
@@ -236,7 +228,7 @@ bundle exec jekyll serve
 http://127.0.0.1:4000/sbc_bg/
 ```
 
-* **※操作目的**
+* **※操作目的**  
   編集したページの動作確認・プレビューを行うためです。
 
 ### 4. 注意事項
@@ -244,8 +236,6 @@ http://127.0.0.1:4000/sbc_bg/
 一部ページで `404 Not Found` が表示される場合があります。これは、URL上で `sbc_bg/` が二重に付与されることが原因です。ローカルアクセス時は、URLから余分な `sbc_bg/` を削除すれば正常に表示されます。
 例: `http://127.0.0.1:4000/sbc_bg/sbc_bg/games/open-the-price/` → `http://127.0.0.1:4000/sbc_bg/games/open-the-price/`
 GitHub Pages 上では正常に動作するため、このエラーは無視して構いません。
-
----
 
 ## トラブルシューティング
 
