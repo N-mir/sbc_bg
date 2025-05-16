@@ -5,7 +5,7 @@ description: 『オープン・ザ・プライス』のサポートページで�
 lang: ja
 ---
 
-# **ルールブック 1.0**
+# **ルールブック 1.1**
 
 <div style="text-align: right; font-size: 1.2rem; font-weight: bold;">
   {% if page.lang == "ja" %}
