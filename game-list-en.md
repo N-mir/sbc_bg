@@ -15,7 +15,49 @@ lang: en
   {% endif %}
 </div>
 
-## **1. Babel Builders/バベルの建築家たち**
+## **1. Was It YOU Who Ate My Milk Pudding?/わしの牛乳プリンを食べたんはお前か？**
+
+<!-- サムネイル画像の準備ができたら差し替え
+<div class="img-container">
+   <img src="{{site.baseurl}}/assets/img/（画像ファイル名）" alt="Was It YOU Who Ate My Milk Pudding?">
+</div>
+-->
+
+### **(1) What is Was It YOU Who Ate My Milk Pudding?**
+
+---
+
+You know the score.  
+Right now, there's something the Boss treasures sitting in the office fridge. **Get your hands on it, whatever it takes!**  
+Your brothers in the family? Of course, every one of 'em is your enemy.
+
+Listen up. Keep a close eye on who opens the fridge, and when. **Timing is everything.**
+
+But don't overdo it, either. That's what they call a trade-off.
+
+### **(2) Game Features**
+
+---
+
+- A **competitive game of snagging as many milk puddings as you can** from the office fridge, without the Boss finding out
+- Not just **mind games** and **smooth talking**, but an **element of luck** too (take too many and you just might burp!), all perfectly blended together
+- The fridge holds **other fun goods besides milk pudding**, too
+
+### **(3) Rules**
+
+---
+
+- [Rulebook]({{site.baseurl}}{% link _games/was-it-you-milk-pudding-en.md %}) (Coming soon)
+
+### **(4) Exhibition Information**
+
+---
+
+First exhibition at Game Market 2026 Autumn (Booth: H039, both days)
+
+- [Game Introduction Page](https://gamemarket.jp/game/189787){:target="\_blank"}
+
+## **2. Babel Builders/バベルの建築家たち**
 
 <div class="img-container">
    <img src="{{site.baseurl}}/assets/img/バベルの建築家たち.jpg" alt="Babel Builders">
