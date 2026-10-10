@@ -24,11 +24,9 @@ lang: ja
 
 ---
 
-<!-- サムネイル画像の準備ができたら差し替え
 <div class="img-container">
-   <img src="{{site.baseurl}}/assets/img/（画像ファイル名）" alt="わしの牛乳プリンを食べたんはお前か？">
+   <img src="{{site.baseurl}}/assets/img/2026秋_WasItYou_盤面.jpg" alt="わしの牛乳プリンを食べたんはお前か？">
 </div>
--->
 
 ### **（１）わしの牛乳プリンを食べたんはお前か？とは**
 

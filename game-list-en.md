@@ -17,11 +17,9 @@ lang: en
 
 ## **1. Was It YOU Who Ate My Milk Pudding?/わしの牛乳プリンを食べたんはお前か？**
 
-<!-- サムネイル画像の準備ができたら差し替え
 <div class="img-container">
-   <img src="{{site.baseurl}}/assets/img/（画像ファイル名）" alt="Was It YOU Who Ate My Milk Pudding?">
+   <img src="{{site.baseurl}}/assets/img/2026秋_WasItYou_盤面.jpg" alt="Was It YOU Who Ate My Milk Pudding?">
 </div>
--->
 
 ### **(1) What is Was It YOU Who Ate My Milk Pudding?**
 
