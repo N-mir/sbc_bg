@@ -45,7 +45,7 @@ But don't overdo it, either. That's what they call a trade-off.
 
 ---
 
-- [Rulebook]({{site.baseurl}}{% link _games/was-it-you-milk-pudding-en.md %}) (Coming soon)
+- [Rulebook]({{site.baseurl}}{% link _games/was-it-you-milk-pudding-en.md %})
 
 ### **(4) Exhibition Information**
 
